@@ -17,7 +17,8 @@ public class ProductController : Controller
     // GET: Product
     public async Task<IActionResult> Index()
     {
-        return View(await _context.Products.ToListAsync());
+        var products = await _context.Products.ToListAsync();
+        return View(products);
     }
 
     // GET: Product/Details/5

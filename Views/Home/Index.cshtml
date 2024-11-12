@@ -2,7 +2,71 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .welcome-section {
+        background-image: url('/images/background.jpg'); 
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        padding: 100px 0;
+        position: relative;
+        text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .welcome-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    }
+
+    .welcome-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .welcome-content h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        background: linear-gradient(90deg, #ff8a00, #da1b60);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .welcome-content p {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        color: #ddd;
+    }
+
+    .btn-custom {
+        background: linear-gradient(135deg, #ff8a00, #da1b60);
+        border: none;
+        color: #fff;
+        padding: 12px 30px;
+        font-size: 1.1rem;
+        border-radius: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-custom:hover {
+        transform: scale(1.1);
+        background: linear-gradient(135deg, #da1b60, #ff8a00);
+    }
+</style>
+
+<div class="welcome-section">
+    <div class="welcome-content text-center">
+        <h1 class="display-4">Welcome to ABC Retailers</h1>
+        <p class="lead">
+            PS This Page was useed as a Fancy Redirect to THE ASP Documentation which was used for this POE
+            Dive into the world of modern web development with <strong>ASP.NET Core</strong> and bring your web applications to life.
+        </p>
+        <a href="https://learn.microsoft.com/aspnet/core" target="_blank" class="btn btn-custom mt-4">
+            Start Learning
+        </a>
+    </div>
 </div>

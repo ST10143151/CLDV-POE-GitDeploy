@@ -1,10 +1,10 @@
 @model IEnumerable<ABCRetailers.Models.Order>
 
 @{
-    ViewData["Title"] = "My Orders";
+    ViewData["Title"] = "Orders List";
 }
 
-<h2>My Orders</h2>
+<h2>Orders List</h2>
 
 @if (Model.Any())
 {
@@ -12,6 +12,7 @@
         <thead>
             <tr>
                 <th>Order ID</th>
+                <th>User ID</th>
                 <th>Order Date</th>
                 <th>Total Amount</th>
                 <th>Actions</th>
@@ -22,6 +23,7 @@
             {
                 <tr>
                     <td>@order.OrderId</td>
+                    <td>@order.UserId</td>
                     <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
                     <td>@order.TotalAmount.ToString("C")</td>
                     <td>
@@ -34,5 +36,5 @@
 }
 else
 {
-    <p>You have no orders.</p>
+    <p>No orders found.</p>
 }
