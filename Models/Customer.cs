@@ -1,12 +1,18 @@
-﻿namespace ABCRetailers_Latest.Models
+
+using System.ComponentModel.DataAnnotations;
+
+namespace ABCRetailers.Models
 {
-    public class Customer
+    public class Customer 
     {
-        public int CustomerId { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
+        [Key]
+        public int Customer_Id { get; set; }  // Ensure this property exists and is populated
+        public string? Customer_Name { get; set; }  // Ensure this property exists and is populated
+        public string? Email { get; set; }
+        public string? Password { get; set; }
+
+      
+
+        public DateTimeOffset? Timestamp { get; set; }
     }
 }
-
-
-

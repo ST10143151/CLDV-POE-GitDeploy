@@ -1,16 +1,17 @@
 ﻿@page
-@model ABCRetailers_Latest.Areas.Identity.Pages.Account.RegisterModel
+@model ABCRetailers.Areas.Identity.Pages.Account.RegisterModel
 @{
     ViewData["Title"] = "Register";
 }
+
+<h2>@ViewData["Title"]</h2>
+
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <h4>Create a new account.</h4>
             <hr />
             <div asp-validation-summary="All" class="text-danger"></div>
-            
-            <!-- Existing fields -->
             <div class="form-group">
                 <label asp-for="Input.Name"></label>
                 <input asp-for="Input.Name" class="form-control" />
@@ -32,44 +33,7 @@
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
 
-            <!-- Additional user fields -->
-            <div class="form-group">
-                <label asp-for="Input.Department"></label>
-                <input asp-for="Input.Department" class="form-control" />
-                <span asp-validation-for="Input.Department" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Office"></label>
-                <input asp-for="Input.Office" class="form-control" />
-                <span asp-validation-for="Input.Office" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.OfficeHours"></label>
-                <input asp-for="Input.OfficeHours" class="form-control" />
-                <span asp-validation-for="Input.OfficeHours" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.HourlyRate"></label>
-                <input asp-for="Input.HourlyRate" class="form-control" />
-                <span asp-validation-for="Input.HourlyRate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Profile"></label>
-                <input asp-for="Input.Profile" class="form-control" />
-                <span asp-validation-for="Input.Profile" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Image"></label>
-                <input asp-for="Input.Image" class="form-control" />
-                <span asp-validation-for="Input.Image" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Position"></label>
-                <input asp-for="Input.Position" class="form-control" />
-                <span asp-validation-for="Input.Position" class="text-danger"></span>
-            </div>
-
-            <!-- Role selection dropdown -->
+            <!-- Optional: Role selection dropdown -->
             <div class="form-group">
                 <label asp-for="Input.Role"></label>
                 <select asp-for="Input.Role" class="form-control">
@@ -91,7 +55,9 @@
             {
                 <div>
                     <p>
-                        Welcome To ABCRetailers_Latest Registration
+                        There are no external authentication services configured. See
+                        <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                        for details on setting up this ASP.NET application to support logging in via external services.
                     </p>
                 </div>
             }

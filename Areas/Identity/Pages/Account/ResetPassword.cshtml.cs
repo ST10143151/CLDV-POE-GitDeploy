@@ -1,17 +1,17 @@
-using ABCRetailers_Latest.Models;  // Custom User model
+using ABCRetailers.Models;  // Custom User model
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
-namespace ABCRetailers_Latest.Areas.Identity.Pages.Account
+namespace ABCRetailers.Areas.Identity.Pages.Account
 {
     public class ResetPasswordModel : PageModel
     {
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<User> _userManager;
 
-        public ResetPasswordModel(UserManager<ApplicationUser> userManager)
+        public ResetPasswordModel(UserManager<User> userManager)
         {
             _userManager = userManager;
             Input = new InputModel

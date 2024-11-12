@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ABCRetailers_Latest.Areas.Identity.Pages.Account
+namespace ABCRetailers.Areas.Identity.Pages.Account
 {
     public class ResetPasswordConfirmationModel : PageModel
     {

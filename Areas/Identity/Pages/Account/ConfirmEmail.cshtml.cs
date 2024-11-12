@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Threading.Tasks;
 
-namespace ABCRetailers_Latest.Areas.Identity.Pages.Account
+namespace ABCRetailers.Areas.Identity.Pages.Account
 {
     public class ConfirmEmailModel : PageModel
     {

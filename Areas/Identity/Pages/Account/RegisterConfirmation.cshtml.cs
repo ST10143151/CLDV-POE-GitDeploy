@@ -2,15 +2,15 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Threading.Tasks;
-using ABCRetailers_Latest.Models; // Custom User model
+using ABCRetailers.Models; // Custom User model
 
-namespace ABCRetailers_Latest.Areas.Identity.Pages.Account
+namespace ABCRetailers.Areas.Identity.Pages.Account
 {
     public class RegisterConfirmationModel : PageModel
     {
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<User> _userManager;
 
-        public RegisterConfirmationModel(UserManager<ApplicationUser> userManager)
+        public RegisterConfirmationModel(UserManager<User> userManager)
         {
             _userManager = userManager;
             EmailConfirmationUrl = string.Empty; // Initialize to an empty string

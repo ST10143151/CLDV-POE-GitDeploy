@@ -1,98 +1,51 @@
-using ABCRetailers_Latest.Data;
-using ABCRetailers_Latest.Models; // Assuming ApplicationUser is in this namespace
+using ABCRetailers.Data;  
+using ABCRetailers.Models;  
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                       ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection1")));
+// Add services to the container.
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+  //  options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configure Identity with roles and custom ApplicationUser
-builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+// Add Identity services with custom User model and Role management.
+builder.Services.AddIdentity<User, IdentityRole>(options =>
 {
-    options.SignIn.RequireConfirmedAccount = true;
+    options.SignIn.RequireConfirmedAccount = false;  // Customize this as needed
 })
-.AddRoles<IdentityRole>() // This line enables RoleManager for IdentityRole
-.AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();  // For email confirmation, password resets, etc.
 
+// Add Razor Pages and MVC services
+builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment())
 {
-    app.UseMigrationsEndPoint();
-}
-else
-{
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    app.UseExceptionHandler("/Home/Error");  // Friendly error page in production
+    app.UseHsts();  // Enforce HTTPS in production environments
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseHttpsRedirection();   // Redirect HTTP requests to HTTPS
+app.UseStaticFiles();        // Serve static files (CSS, JS, images, etc.)
 
-app.UseRouting();
+app.UseRouting();  // Enable routing for controllers and Razor pages
 
-app.UseAuthentication();
-app.UseAuthorization();
+app.UseAuthentication();  // Enable authentication middleware
+app.UseAuthorization();   // Enable authorization middleware
 
+// Map Razor Pages (for Identity: Register, Login, etc.)
+app.MapRazorPages();
+
+// Set up default controller route
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
 
 app.Run();
-
-
-
-/*using ABCRetailers_Latest.Data;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddControllersWithViews();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseMigrationsEndPoint();
-}
-else
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
-
-app.Run();*/

@@ -1,44 +1,48 @@
-﻿
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ABCRetailers_Latest.Models; 
+using ABCRetailers.Models;
 
-namespace ABCRetailers_Latest.Data
+namespace ABCRetailers.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
-        // Define DbSet properties for other entities as needed
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Claim> Claims { get; set; }
+        // DbSet for Products table
         public DbSet<Product> Products { get; set; }
+
+        // DbSet for FileUploads table
+
+
+        // DbSet for Carts table
+        public DbSet<Cart> Carts { get; set; }
+
+        // DbSet for CartItems table
+        public DbSet<CartItem> CartItems { get; set; }
+
+        // DbSet for Orders table
         public DbSet<Order> Orders { get; set; }
-        public DbSet<Inventory> Inventory { get; set; }
+
+        // DbSet for OrderItems table
+        public DbSet<OrderItem> OrderItems { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Specify precision for decimal properties
+            modelBuilder.Entity<Order>()
+                .Property(o => o.TotalAmount)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<OrderItem>()
+                .Property(oi => oi.TotalPrice)
+                .HasPrecision(18, 2);
+        }
+
     }
 }
-
-
-/*using ABCRetailers_Latest.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
-namespace ABCRetailers_Latest.Data
-{
-    public class ApplicationDbContext : IdentityDbContext
-    {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
-
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<Inventory> Inventory { get; set; }
-    }
-}*/
-
-
