@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\data\\migrations\\20241112063514_updatemodelscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:data\\migrations\\20241112063514_updatemodelscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\data\\migrations\\20241112063514_updatemodelscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:data\\migrations\\20241112063514_updatemodelscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|c:\\users\\lab_services_student\\source\\repos\\abcretailers_latest\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers_Latest.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|c:\\users\\lab_services_student\\source\\repos\\ABCRetailers\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B8F26F2-F600-4490-BEF4-D0D82802EA58}|ABCRetailers.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,9 +76,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Email.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAgwA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,9 +102,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "InventoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\InventoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\InventoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoriesController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\InventoriesController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\InventoriesController.cs",
               "RelativeToolTip": "Controllers\\InventoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,9 +114,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -126,9 +126,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,9 +138,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Controllers\\CustomersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,9 +150,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Inventory.cs",
               "RelativeDocumentMoniker": "Models\\Inventory.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Inventory.cs",
               "RelativeToolTip": "Models\\Inventory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,9 +162,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,9 +174,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,9 +186,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\Customer.cs",
               "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAUAAACAZmZmZmYjwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,9 +198,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -210,9 +210,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\ScaffoldingReadMe.txt",
               "RelativeToolTip": "ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -222,9 +222,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,9 +235,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "20241112063514_UpdateModelsControllers.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Data\\Migrations\\20241112063514_UpdateModelsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Data\\Migrations\\20241112063514_UpdateModelsControllers.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20241112063514_UpdateModelsControllers.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers_Latest\\Data\\Migrations\\20241112063514_UpdateModelsControllers.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABCRetailers\\Data\\Migrations\\20241112063514_UpdateModelsControllers.cs",
               "RelativeToolTip": "Data\\Migrations\\20241112063514_UpdateModelsControllers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
